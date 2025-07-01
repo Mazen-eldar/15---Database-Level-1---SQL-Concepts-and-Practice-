@@ -1,0 +1,24 @@
+What is Null
+• In a database, "NULL" is a special marker used to indicate that a data 
+value does not exist in the database. It represents a missing or unknown 
+value in a table column.
+
+
+• When a field or column in a table has a NULL value, it means that the field 
+has no value at all, and it's different from having an empty or zero value. 
+NULL is not the same as a blank space or a zero, and it's a distinct value 
+in the database.
+
+
+• NULL can be used in several ways, such as indicating missing data, 
+representing optional fields, or as a placeholder for values that are not 
+yet known. However, it's essential to use NULL values carefully because 
+they can affect the results of queries and calculations in unexpected ways.
+
+============================================================================================
+Summary
+• In summary, NULL is a special value in a database that represents the 
+absence of a value in a table column. 
+
+• It's used to indicate missing or unknown data and should be used carefully 
+to avoid unexpected results in queries and calculations.
