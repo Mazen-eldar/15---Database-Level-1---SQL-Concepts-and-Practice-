@@ -1,0 +1,33 @@
+In RDBMS.
+Data that is stored in an organized fashion in tables containing rows and columns along with relations between
+these tables.
+====================================================================================================================
+                                                Primary Key vs Foreign Key
+                                                ___________________________
+Primary Key:
+• A primary key is a column or set of columns in a relational database table 
+that uniquely identifies each row or record in the table. 
+
+• It is a unique identifier for each record and serves as a reference point 
+for other tables that have a relationship with the table in question. 
+
+• Each table in a relational database must have a primary key, and it should 
+be a non-null value that is unique and stable over time.
+
+• Primary Key should not be changed.
+_________________________________________________________________________________
+Foreign Key:
+• A foreign key, on the other hand, is a column or set of columns in a table 
+that refers to the primary key of another table. 
+
+• It establishes a relationship between two tables, allowing data to be 
+shared and linked between them. 
+
+• The foreign key ensures that referential integrity is maintained by 
+ensuring that any value in the foreign key column must exist in the primary 
+key column of the related table.
+_______________________________________________________________________________
+Summary:
+• In summary, a primary key uniquely identifies a record in a table, while a 
+foreign key establishes a relationship between two tables by referencing 
+the primary key of another table.
