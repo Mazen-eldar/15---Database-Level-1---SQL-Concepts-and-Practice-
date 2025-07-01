@@ -1,0 +1,20 @@
+What is Database?
+A database is an organized collection of data so that it can be easily 
+accessed. To manage these databases, Database Management Systems (DBMS) are 
+used.
+
+Types of DBMS:
+In general, there are two common types of databases:
+• Non-Relational (DBMS): File System, XML..etc.
+• Relational (RDBMS): enhanced version of DBMS but with relations, 
+examples 
+SQLServer, Oracle, MySQL ..etc.
+
+In RDBMS.
+Data that is stored in an organized fashion in tables containing rows and columns along with relations between
+these tables.
+
+ table(Entity Set)It consists of:
+.Column/Field/Attribute
+.Row/Entity/Record
+========================================================================================================================
