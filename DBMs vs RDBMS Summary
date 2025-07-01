@@ -1,0 +1,17 @@
+📊 DBMS vs RDBMS Summary Table
+===========================================================================================================================================
+| Feature               |   DBMS                                               |   RDBMS                                                 |
+| --------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
+| **Full Form**         | Database Management System                           | Relational Database Management System                   |
+| **Examples**          | Normal File System, XML, etc.                        | MySQL, Oracle, SQL Server, MongoDB, etc.                |
+| **Data Storage**      | Data stored in files without relationships           | Data stored in tabular format (tables with relations)   |
+| **Data Access**       | One user can access data at a time                   | Multiple users can access data concurrently             |
+| **Data Structure**    | Custom or hierarchical data structures               | Uses relational (tabular) structure                     |
+| **Query Language**    | No standard query language                           | Uses SQL to manage and retrieve data                    |
+| **Scalability**       | Small data, less scalable                            | Large data, highly scalable                             |
+| **Backup & Recovery** | Hard to manage backups                               | Easy backup and recovery mechanisms                     |
+| **Security**          | Less secure                                          | More secure and controlled access                       |
+| **Normalization**     | Not supported; leads to redundancy and inconsistency | Fully supported; ensures data integrity and consistency |
+| **Ease of Use**       | Hard to deal with                                    | Easy to work with and manage                            |
+| **Data Sharing**      | Limited or manual                                    | Centralized and efficient data sharing                  |
+===========================================================================================================================================
