@@ -1,0 +1,32 @@
+Constraints:
+• In the context of databases, constraints are rules or conditions that are 
+applied to the data to ensure its integrity and consistency. Constraints 
+can be applied to individual columns or to entire tables, and they are used 
+to enforce various rules and restrictions on the data.
+
+• By using constraints, you can help ensure that your data is accurate, 
+consistent, and easy to manage.
+====================================================================================
+Here are some common types of constraints used in databases:
+1.Primary Key Constraint: This constraint ensures that a column or a set of 
+columns uniquely identifies each row in a table. This constraint helps to 
+enforce data integrity and ensure that there are no duplicate rows in the table.
+
+2.Foreign Key Constraint: This constraint establishes a relationship between two               |============================================================================= |
+tables based on a key field. The foreign key constraint ensures that data in one               |                                Interview Question?                           |
+table matches data in another table, and it helps to maintain referential                      |What is the difference between Primary Key Constraint and Unique Constraint?  |
+integrity in the database.                                                                     |                                                                              |
+                                                                                               |Primary Key is Unique but it does not allow NULL  while Unique allows NULL.  |
+3.Unique Constraint: This constraint ensures that the data in a column or set of               |==============================================================================|
+columns is unique across all rows in the table. This constraint helps to enforce 
+data integrity and prevent duplicate values from being inserted into the table.
+
+4. Not Null Constraint: This constraint ensures that a column or set of 
+columns cannot contain null (empty) values. This constraint helps to ensure 
+that the data is complete and accurate, and it can help prevent errors in 
+queries and calculations.
+
+5. Check Constraint: This constraint ensures that the data in a column or set 
+of columns meets a specified condition. This constraint helps to enforce data 
+integrity and prevent invalid data from being inserted into the table.
+=====================================================================================
