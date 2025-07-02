@@ -1,0 +1,38 @@
+An associative entity is a type of entity in a database 
+that is used to model a many-to-many relationship
+between two other entities. It is also sometimes called a junction table, a linking table, or a cross-reference table.
+======================================================================================================================
+By using an associative entity, we can represent
+complex relationships between entities in a structured
+and efficient way, without having to duplicate data or
+create confusing relationships between tables.
+It allows us to model many-to-many relationships 
+and avoid data redundancy, making it a useful concept in database design.
+======================================================================================================================
+Representing relationship between an entity and a relationship
+which may be required in some scenarios.
+In those cases, a relationship with its corresponding entities is aggregated into a higher level entity.
+Aggregation is an abstraction through which we can represent relationships as higher level entity sets.
+======================================================================================================================
+Aggregation is a specialized form of association between two or more Entities 
+in which each Entity has its own Existence.
+======================================================================================================================
+In aggregation, the relation between two entities is treated as a single entity.
+In aggregation, relationship with its corresponding entities is aggregated into a higher level entity.
+======================================================================================================================
+-- 📘 ERD Script: Library Management System (With Associative Entity & Aggregation Conceptually)
+
+-- 📌 Summary: Aggregation vs Associative Entity
+--
+-- 🔹 Associative Entity:
+-- - Used to represent a Many-to-Many (M:N) relationship between two entities.
+-- - Implemented as a separate table with foreign keys to both entities.
+-- - Often includes attributes specific to the relationship (e.g., EnrollmentDate, Grade).
+-- - Example: 'Enrollment' links 'Student' and 'Course'.
+--
+-- 🔹 Aggregation:
+-- - A conceptual modeling approach where a relationship acts like an entity.
+-- - Used when an entire relationship (e.g., Professor teaches Course) participates in another relationship (e.g., supervised by Department).
+-- - Not directly represented in SQL but can be modeled using an additional linking table.
+-- - Example: 'Supervises' links 'Department' to the relationship 'Teaches' (Professor teaches Course).
+
