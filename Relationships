@@ -1,0 +1,42 @@
+Relationship:
+• The diamond shape showcases a relationship in the ER diagram.
+• It depicts the relationship between two entities.
+=================================================================
+                     |Examples|
+                     ----------
+both the student and the course are entities, 
+and Enrolled is the relationship between them. 
+
+ both the student and the Identification-Card 
+are entities, and “has” is the relationship between them. 
+
+ both the customer and the order are entities, 
+and “Place” is the relationship between them. 
+
+both the customer and the order are entities, 
+and “Place” is the relationship between them. 
+• Order can have more than one product.
+
+ both the Member and the Book are entities, 
+and “borrow” is the relationship between them. 
+
+ both the Customer and the Car are entities, 
+and “Rent” is the relationship between them.
+
+ both the Employee and the Project are 
+entities, and “Works on” is the relationship between them.
+• Also Employee manages projects. 
+====================================================================
+Self Referencing Relationship:
+ an employee has only one manager and manager 
+is employee.
+• It depicts the relationship between one entity.
+• When an element of an entity is associated with a an element of 
+same entity, it is called self relationship.
+=====================================================================
+Relationship Types:
+• One-to-One Relationship.
+• One-to-Many Relationship.
+• Many-to-One Relationship.
+• Many-to-Many Relationship.
+========================================================================
