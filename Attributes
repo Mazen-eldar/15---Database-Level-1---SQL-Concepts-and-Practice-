@@ -1,0 +1,34 @@
+Attribute:
+• An attribute exhibits the properties of an entity. 
+
+• You can illustrate an attribute with an oval shape in an ER 
+diagram.
+====================================================================
+Key Attribute:
+• Key attribute uniquely identifies an entity from an entity set.
+
+• It underlines the text of a key attribute.
+
+• For example: For a student entity, the ID can uniquely identify a 
+student from a set of students.
+======================================================================
+Composite Attribute:
+• An attribute that is composed of several other attributes is known 
+as a composite attribute.
+
+• An oval showcases the composite attribute, and the composite 
+attribute oval is further connected with other ovals.
+========================================================================
+Multivalued Attribute:
+• Some attributes can possess over one value, those attributes are 
+called multivalued attributes.
+
+• The double oval shape is used to represent a multivalued attribute.
+=========================================================================
+Derived Attribute:
+• An attribute that can be derived from other attributes of the 
+entity is known as a derived attribute.
+
+• In the ER diagram, the dashed oval represents the derived 
+attribute.
+==========================================================================
