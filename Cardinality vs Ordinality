@@ -1,0 +1,12 @@
+Cardinality:
+• Cardinality refers to the maximum number of times an instance in 
+one entity can relate to instances of another entity
+===================================================================
+Ordinality:(بتجاوب على: "هل لازم؟")
+(بتوضح إذا كانت العلاقة إجبارية ولا اختيارية (Total vs Partial)
+بتركز على: "هل العلاقة دي لازمة/إجبارية للكيان؟")
+• Ordinality, on the other hand, is the minimum number of times an 
+instance in one entity can be associated with an instance in the 
+related entity. (in other words It specify if it’s 
+optional/mandatory/required or not).
+=====================================================================
