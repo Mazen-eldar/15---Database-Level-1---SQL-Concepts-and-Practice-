@@ -1,0 +1,16 @@
+Steps to Create ERD?
+Follow these steps to creat ERD:
+----------------------------------
+1)Entity Identification
+We need to identify Entities in the System.
+
+2)Relationship Idenentification
+Identify the relationship among all entities
+
+3)Cardinality Identification
+In each Relationship we need to idenify it‘s Type
+
+4)Identify Attributes
+
+5)Create ERD
+======================================================
