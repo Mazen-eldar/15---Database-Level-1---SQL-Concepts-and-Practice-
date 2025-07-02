@@ -1,0 +1,15 @@
+Symbols Used in ER Diagrams:
+• Rectangles: This Entity Relationship Diagram symbol represents entity 
+types
+
+• Ellipses: This symbol represents attributes
+
+• Diamonds: This symbol represents relationship types
+
+• Lines: It links attributes to entity types and entity types with other 
+relationship types
+
+• Primary key: Here, it underlines the attributes 
+
+• Double Ellipses: Represents multi-valued attributes
+==================================================================================
