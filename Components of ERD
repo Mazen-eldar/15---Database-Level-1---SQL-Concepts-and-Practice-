@@ -1,0 +1,20 @@
+Components of ER Diagram:
+We base an ER Diagram on three basic concepts:
+----------------------------------------------
+• Entities 
+    • Entity (Strong Entity)
+    • Weak Entity
+-----------------------------------------------
+• Attributes
+    • Attribute
+    • Key Attribute
+    • Composite Attribute
+    • Multivalued Attribute
+    • Derived Attribute
+-------------------------------------------------
+• Relationships
+    • One-to-One Relationships
+    • One-to-Many Relationships
+    • Many-to-One Relationships
+    • Many-to-Many Relationships
+========================================================
