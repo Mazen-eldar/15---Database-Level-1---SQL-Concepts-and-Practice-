@@ -1,0 +1,8 @@
+Generalization:
+ • Generalization is the process of extracting common properties from 
+a set of entities and create a generalized entity from it.
+
+ • It is a bottom-up approach in which two or more entities can be 
+generalized to a higher level entity if they have some attributes 
+in common.
+========================================================================
