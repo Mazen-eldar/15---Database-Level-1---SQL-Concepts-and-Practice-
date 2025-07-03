@@ -1,0 +1,12 @@
+|ER Diagram is Conceptual |
+ -------------------------
+ER Diagram to Relational Schema:
+===============================
+Relational Schema:
+ • A relational schema is a set of relational tables and associated items that 
+are related to one another.
+
+ • Relation schema defines the design and structure of the relation like it 
+consists of the relation name, set of attributes/field names/column names. 
+every attribute would have an associated domain. 
+================================================================================
