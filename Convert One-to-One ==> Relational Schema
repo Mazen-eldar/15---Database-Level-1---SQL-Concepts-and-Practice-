@@ -1,0 +1,7 @@
+ 1. We create a table for each 
+entity with it’s attributes.
+
+ 2. We take the primary key 
+from any side and put it in 
+the other side .
+=================================
