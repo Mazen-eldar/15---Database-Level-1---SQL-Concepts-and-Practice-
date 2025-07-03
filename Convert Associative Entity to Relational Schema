@@ -1,0 +1,7 @@
+1) We create a table for each entity with it’s attributes.
+
+2)Create a bridge table for the many to many relationship.
+
+3) Take the primary key from each tables in the relation and put them in the bridge table. Also Take 
+   the primary key from the associated relation and also put it in the bridge table
+=========================================================================================================
