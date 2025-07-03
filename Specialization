@@ -1,0 +1,12 @@
+Specialization:
+ • In specialization, an entity is divided into sub-entities based on 
+their characteristics. 
+
+• Specialization is a top-down approach in which a higher-level 
+entity is divided into multiple specialized lower-level entities.
+======================================================================
+| المصطلح        |       فكر فيه كده                |
+| -------------- | --------------------------- |
+| Generalization | بدمج كائنات شبه بعض في واحد كبير    | 
+| Specialization | بفرّع كائن عام إلى أنواع فرعية        |
+======================================================================
