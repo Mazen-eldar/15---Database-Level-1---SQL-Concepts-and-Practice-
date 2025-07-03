@@ -1,0 +1,8 @@
+ 1. We create a table for each 
+   entity with it’s attributes.
+
+ 2. We take the primary key 
+   from the “one” side and put 
+   it as foreign key in the 
+   “many” side
+==================================
