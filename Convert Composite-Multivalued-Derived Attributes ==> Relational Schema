@@ -1,0 +1,11 @@
+ 1. Create Table for the entity
+ 2.Move attributes to that table.
+ 3.Composite attribute: only take roots.
+ 4.Derived Attribute will be ignored.
+ 5.We create another table for the 
+   multivalued attribute. 
+ 6.We take the primary key from the 
+    main entity and put it on the new one 
+    as FK
+===============================================
+.
