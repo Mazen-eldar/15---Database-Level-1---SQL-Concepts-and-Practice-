@@ -1,0 +1,68 @@
+Dealing With Data
+===================
+What is SQL?
+• SQL stands for Structured Query Language
+• Pronounced as “S-Q-L” or sometimes as “See-Quel”.
+• SQL is used to communicate with a database.
+• SQL lets you access and manipulate databases
+• Database management systems that use SQL are: Oracle, Sybase, Microsoft SQL 
+Server, Access, Ingres, etc.
+===============================================================================
+What Can You Do With SQL?
+•SQL can execute queries against a database
+• SQL can retrieve data from a database
+• SQL can insert records in a database
+• SQL can update records in a database
+• SQL can delete records from a database
+• SQL can create new databases
+• SQL can create new tables in a database
+• SQL can create stored procedures in a database
+• SQL can create views in a database
+• SQL can set permissions on tables, procedures, and views
+================================================================================
+Examples Of SQL Statements:
+• SELECT * FROM Employees WHERE Salary < 1000;
+
+• SELECT FirstName , LastName FROM Employees WHERE Salary < 1000 and Gender=‘M’;
+
+• SELECT * FROM Employees WHERE Salary between 500 and 1000;
+
+• Select Count(*) from Employees;
+
+• Select Sum(Salary) from Employees;
+
+• Select Avg(Salary) from Employees;
+
+• Delete from Employees where ID=10;
+
+• Update Employees set FirstName = ‘Amjad’ where ID = 10;
+================================================================================
+Examples:
+• CREATE DATABASE MyDatabase;
+
+• DROP DATABASE MyDatabase;
+
+• CREATE TABLE Employees (
+ID int,
+FirstName varchar(255),
+LastName varchar(255),
+Address varchar(255),
+City varchar(255)
+);
+==================================================================================
+Types of SQL Statements:
+1)• Data Definition Language (DDL) 
+  Create-Drop-Alter-Truncate
+
+2)• Data Manipulation Language (DML)
+  Insert-Update-Delete
+
+3)• Data Control Language (DCL)
+  Grant-Revoke
+
+4)• Transaction Control Language (TCL)
+  Commit-Rollback-Savepoint
+
+5)• Data Query Language (DQL)
+  Select
+===================================================================================
