@@ -1,0 +1,16 @@
+SQL CREATE DATABASE Statement:
+-----------------------------
+Before we can work with database tables, we must create a database first.
+
+The CREATE DATABASE statement is used to create database tables. For example,
+-----------------------------------------------------------------------------|
+                       create datebase Koko;                                 |
+-----------------------------------------------------------------------------|
+Here, the SQL command creates a database named Koko.
+==============================================================================
+OR:
+1)right mouse click in DateBase Folder
+2)Select New Dateebase option
+3)Write Datebase Name
+4)click ok
+===============================================================================
