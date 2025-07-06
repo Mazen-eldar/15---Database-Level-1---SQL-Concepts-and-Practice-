@@ -1,0 +1,25 @@
+DELETE Statement
+The DELETE statement is used to delete existing records in a table.
+------------------------------------------------------------------
+DELETE Syntax:
+===========================|
+DELETE FROM table_name     |
+WHERE condition;           |
+===========================|
+Note: Be careful when deleting records in a table! Notice the WHERE clause in the DELETE statement. 
+The WHERE clause specifies which record(s) should be deleted.
+If you omit the WHERE clause, all records in the table will be deleted!
+==================================================================================================
+
+--this will show all data in the table
+select * from Employees;
+
+-- this will delete all employees which their salary is null
+delete from Employees 
+where salary is null;
+
+-- this will delete all employees that have their id=4 , which is one record in our case
+delete from Employees 
+where ID=4;
+==================================================================================================
+
