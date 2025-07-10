@@ -1,0 +1,14 @@
+1st Normal Form (1NF)
+ 1. A primary key: A unique identifier for each record in the 
+    table.
+ 2. Atomic values: Each column should contain only a single 
+    value, and each value should be indivisible.
+
+ • Note: Here, atomicity states that a single cell cannot hold multiple 
+  values. It must hold only a single-valued attribute.
+ • The First normal form disallows the multi-valued attribute, composite 
+  attribute, and their combinations.
+ 3. No repeating groups: Each column should have a distinct 
+  name, and there should be no repeating groups of columns.
+--------------------------------------------------------------------------
+By applying the First Normal Form, you achieve atomicity, and also every column has unique values.
