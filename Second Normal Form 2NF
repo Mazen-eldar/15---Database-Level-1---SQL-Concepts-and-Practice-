@@ -1,0 +1,15 @@
+2^nd---->Normal Form (2NF)
+ Second Normal Form (2NF) is a further level of database 
+ normalization that builds on the First Normal Form (1NF) 
+ rules.
+
+ It requires that each non-key column in a table be 
+ functionally dependent on the entire primary key, not just a 
+ part of it.
+
+
+ To satisfy the requirements of 2NF:
+ 1. A table must first be in 1NF, and then have:
+ 2. No partial dependencies: Each non-key column in the table 
+    must be fully dependent on the entire primary key.
+----------------------------------------------------------------------
